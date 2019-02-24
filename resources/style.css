@@ -4,8 +4,14 @@
   padding-left: 10px;
   height: 50px;
   margin-left: 10px;
-
-
+  padding-bottom: 50px;
+  padding-right: 50px;
+ height: 50px;
+ width: 100px;
+}
+head {
+  border-bottom: 1px seashell;
+  position: fixed;
 }
 html {
   font-family: helvetica;
@@ -13,6 +19,14 @@ html {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
+}
+.nav {
+  width: 700px
+  height: 25;
+  padding-left: 400px;
+  margin-left: 500px;
+  padding-bottom: 50px;
   text-align: center;
 }
 .nav span {
@@ -28,19 +42,38 @@ html {
   margin-left: 100px;
   justify-content: center;
   align-content: center;
+}
 
+.Image-content {
+  display: flex;
+  width: 1000px;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 200px;
 
 }
-.content {
 
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: black;
-  flex-shrink: 3;
-  height: 80px;
-  width: 1200px;
-  justify-content: center;
-  padding-top: 100px;
+.Image img {
+  height: 200px;
+  width: 300px;
+}
+
+
+.FallBerry {
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.SpicedRumTea {
+  display: inline-flex;
+  justify-content: space-around;
+}
+.MyrtleAveTea {
+  display: inline-flex;
+  justify-content: space-around;
+}
+.BedfordBizarreTea {
+  display: inline-flex;
+  justify-content: space-around;
 }
