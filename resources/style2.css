@@ -1,0 +1,84 @@
+.logo {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 10px;
+  height: 50px;
+  margin-left: 10px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+ height: 50px;
+ width: 100px;
+}
+head {
+  border-bottom: 1px seashell;
+  position: fixed;
+}
+html {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+.nav {
+  width: 700px
+  height: 25;
+  padding-left: 400px;
+  margin-left: 500px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.nav span {
+  text-decoration: underline;
+}
+.Image-Background-Content {
+  padding-top: 69px;
+  height: 700px;
+  background-image: url("./images/img-mission-background.jpg");
+  display: flex;
+  width: 1200px;
+  flex-grow: 3;
+  margin-left: 100px;
+  justify-content: center;
+  align-content: center;
+}
+
+.Image-content {
+  display: flex;
+  width: 1000px;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 200px;
+
+
+}
+
+.Image img {
+  height: 200px;
+  width: 300px;
+}
+
+
+.FallBerry {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.SpicedRumTea {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.MyrtleAveTea {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.BedfordBizarreTea {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
